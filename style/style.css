@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.content{
+    position: relative;
+}
+
+/* Start left section */
+
+.left{
+    position: absolute;
+    left: 0;
+}
+
+.left table{
+    margin: 10px;
+} 
+
+.left table .name{
+    font-weight: bold;
+    color: #424242;
+    padding: 5px;
+    margin: 5px;
+}
+
+.left table td a{
+    text-decoration: underline;
+    color: #2C7CB0;
+}
+
+.left table .sname{
+    color: #6f7484;
+}
+
+/* End left section */
+
+/* Start right section */
+
+.right{
+    position: absolute;
+    top: 35px;
+    padding: 10px;
+    margin-right: 50px;
+    right: 0;
+}
+.right .job .vacancy{
+    color: #6f7484;
+    font-size: 16px;
+    padding-left: 22px;
+}
+button{
+    position: relative;
+    top: 54px;
+    left: 40%;
+    background-color: #389ce9;
+    border-bottom: 1px solid #2C7CB0;
+    border-radius: 12px;
+    padding: 10px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.right h3{
+    position: relative;
+    left: 3%;
+    top: 105px;
+    color: #424242;
+    font-size: 24px;
+}
+.right ul li{
+    margin: 8px;
+    position: relative;
+    left: 5%;
+    top: 118px;
+    color: #424242;
+} 
+
+.container .work_info{
+    margin: 32px;
+    margin-left: 8px;
+}
+.container .work{
+    margin: 32px;
+    margin-left: 8px;
+}
+.container .contact{
+    margin: 32px;
+    margin-left: 8px;
+}
+.right .cv{
+    position: relative;
+    color: #424242;
+    bottom: -83px;
+    margin: 9px;
+    margin-left: 37px;
+}
+
+/* Start tabs */
+
+.links .fb{
+    position: relative;
+    top: 105px;
+    left: 4%;
+    background-color: #3b5997;
+    color: white;
+    border-bottom: 1px solid #3b5997;
+    border-radius: 2px;
+    padding: 10px;
+}
+.links .fb:hover{
+    background-color: #120eec;
+    cursor: pointer;
+}
+.links .in{
+    position: relative;
+    top: 105px;
+    left: 4%;
+    background-color: #0074a1;
+    color: white;
+    border-bottom: 1px solid #0074a1;
+    border-radius: 2px;
+    padding: 10px;
+}
+.links .in:hover{
+    background-color: #3b5997;
+    cursor: pointer;
+}
+.links .tw{
+    position: relative;
+    top: 105px;
+    left: 4%;
+    background-color: #00aced;
+    color: white;
+    border-bottom: 1px solid #00aced;
+    border-radius: 2px;
+    padding: 10px;
+}
+.links .tw:hover{
+    background-color: #2C7CB0;
+    cursor: pointer;
+}
+.links .buf{
+    position: relative;
+    top: 105px;
+    left: 4%;
+    background-color: #444444;
+    color: white;
+    border-bottom: 1px solid #2C7CB0;
+    border-radius: 2px;
+    padding: 10px;
+}
+.links .buf:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+/* End tabs */
+
+
+/* End right section */
